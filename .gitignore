@@ -9,3 +9,4 @@ data/raw/
 samples/
 # Virtual environments
 .venv
+.env
