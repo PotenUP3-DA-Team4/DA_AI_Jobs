@@ -2019,6 +2019,7 @@ dependencies = [
     { name = "plotly" },
     { name = "pyldavis" },
     { name = "python-dotenv" },
+    { name = "python-louvain" },
     { name = "requests" },
     { name = "scikit-learn" },
     { name = "seaborn" },
@@ -2045,6 +2046,7 @@ requires-dist = [
     { name = "plotly", specifier = ">=6.5.2" },
     { name = "pyldavis", specifier = ">=3.4.1" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
+    { name = "python-louvain", specifier = ">=0.16" },
     { name = "requests", specifier = ">=2.32.5" },
     { name = "scikit-learn", specifier = ">=1.8.0" },
     { name = "seaborn", specifier = ">=0.13.2" },
@@ -2242,6 +2244,16 @@ sdist = { url = "https://files.pythonhosted.org/packages/29/bf/eca6a3d43db1dae70
 wheels = [
     { url = "https://files.pythonhosted.org/packages/51/e5/fecf13f06e5e5f67e8837d777d1bc43fac0ed2b77a676804df5c34744727/python_json_logger-4.0.0-py3-none-any.whl", hash = "sha256:af09c9daf6a813aa4cc7180395f50f2a9e5fa056034c9953aec92e381c5ba1e2", size = 15548, upload-time = "2025-10-06T04:15:17.553Z" },
 ]
+
+[[package]]
+name = "python-louvain"
+version = "0.16"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "networkx" },
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/7c/0d/8787b021d52eb8764c0bb18ab95f720cf554902044c6a5cb1865daf45763/python-louvain-0.16.tar.gz", hash = "sha256:b7ba2df5002fd28d3ee789a49532baad11fe648e4f2117cf0798e7520a1da56b", size = 204641, upload-time = "2022-01-29T15:53:03.532Z" }
 
 [[package]]
 name = "pywinpty"
