@@ -11,3 +11,4 @@ samples/
 # Virtual environments
 .venv
 .env
+data/*.csv

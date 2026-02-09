@@ -173,8 +173,10 @@ def fetch_video_statistics_batch(video_ids: list[str]) -> dict[str, dict]:
             video_type = "UNKNOWN"
         elif duration_sec < 60:
             video_type = "SHORT"
-        else:
+        elif duration_sec < 1200:   # 20분 미만
             video_type = "LONG"
+        else:
+            video_type = "STREAM"
 
         stats_map[video_id] = {
             "view_count": view_count,
